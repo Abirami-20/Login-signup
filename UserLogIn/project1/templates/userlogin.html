@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kishore</title>
+    <link rel="stylesheet" href="{% static 'css/userlogin.css' %}">
+</head>
+<body>
+    <div id="Container">
+        <h1>LOGIN</h1>
+
+        <form>
+            <label>Name</label><br><br>
+            <input type="text" placeholder="Enter Name"><br><br>
+            <label>Email</label><br><br>
+            <input type="email" placeholder="Email"><br><br>
+            <label>Password</label><br><br>
+            <input type="password" placeholder="password"><br><br>
+            
+        </form>
+
+        <div id="allbutton">
+            <button class="button">Login</button><br>
+            <a href="reg" target="_blank">
+                <button class="button">Register</button>
+            </a>
+            
+        </div>
+        
+    </div>
+</body>
+</html>
